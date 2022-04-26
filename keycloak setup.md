@@ -41,12 +41,7 @@
 
 ***Skip this for default setup***
 
-Variable name | Meaning | Possible values | Default value |
---- | --- | --- | ---
-`KEYCLOAK_JDBC_DB`|keycloak database name|Used on installation to create the database.Choose your own|`keycloak`
-`KEYCLOAK_JDBC_USER`|keycloak database postgres user|Used on installation to create the database.Choose your own|`postgres`
-`KEYCLOAK_JDBC_PASSWORD`|keycloak database postgres password|Used on installation to create the database.Choose your own|`changeit`
-
+![image text](./formsflow screenshot/keycloak.png).
 #### Keycloak Admin Details
 
 -----------------------------------------
