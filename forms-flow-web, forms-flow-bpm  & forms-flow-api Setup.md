@@ -14,6 +14,6 @@ Modify the environment variables inside .env file if needed. Environment variabl
 ![image](https://user-images.githubusercontent.com/86649870/165293246-da9c7fd2-067e-4d6c-a9c8-8460bb3ea461.png)
 
 
-Get the Get the Redash API Key' steps from `[here]()
+Get the Get the Redash API Key' steps from `[here](https://github.com/athira-aot/athira-aot.github.io/blob/main/Get%20Redash%20API%20key.md)
 ##### formsflow.ai forms variable settings
 -----------------------------------
