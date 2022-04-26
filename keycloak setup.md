@@ -41,17 +41,17 @@
 
 ***Skip this for default setup***
 
-![image text](./formsflow screenshot/keycloak.png).
+![image](https://user-images.githubusercontent.com/86649870/165286149-16b07ad0-56f8-4f43-a8b3-b989bae51c0c.png)
+
+
 #### Keycloak Admin Details
 
 -----------------------------------------
 
 ***Skip this for default setup***
 
-Variable name | Meaning | Possible values | Default value |
---- | --- | --- | ---
-`KEYCLOAK_ADMIN_USER`|keycloak admin user name|Choose your own|`admin`
-`KEYCLOAK_ADMIN_PASSWORD`|keycloak admin password|Choose your own|`changeme`
+![image](https://user-images.githubusercontent.com/86649870/165285826-85d79f5a-bf6c-4713-8965-42683efc94cf.png)
+
 
 ### Starting or Stopping Keycloak server
 
