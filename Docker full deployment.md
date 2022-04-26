@@ -36,7 +36,7 @@ These are the steps required to complete the installation and setup of formsflow
 
 #### Keycloak Setup
 
-Follow the instructions given [here](../../forms-flow-idm/keycloak/README.md)
+Follow the instructions given [here](https://github.com/athira-aot/athira-aot.github.io/blob/main/keycloak%20setup.md)
 
 #### forms-flow-analytics Setup
 ------------------------------
