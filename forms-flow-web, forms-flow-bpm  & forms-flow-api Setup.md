@@ -17,3 +17,6 @@ Modify the environment variables inside .env file if needed. Environment variabl
 Get the Get the Redash API Key' steps from `[here](https://github.com/athira-aot/athira-aot.github.io/blob/main/Get%20Redash%20API%20key.md)
 ##### formsflow.ai forms variable settings
 -----------------------------------
+
+Getting **ROLE_ID** and **RESOURCE_ID** are mandatory for role based access. 
+To generate ID go to ["Formsflow-forms user/role API"](https://github.com/athira-aot/athira-aot.github.io/blob/main/forms%20user%20or%20role%20API.md) and follow the steps.
