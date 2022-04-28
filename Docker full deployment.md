@@ -54,8 +54,4 @@ Follow the steps [here](../../forms-flow-analytics/README.md)
 * 
 ### Docker based full installation is completed now.
 
-### Usage Instructions
 
-> End to end usage of formsflow.ai is mentioned in this section with sample forms and workflows.
-
-* The complete usage instructions with examples are mentioned [here](./../../USAGE.md).
