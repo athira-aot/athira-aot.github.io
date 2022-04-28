@@ -107,7 +107,3 @@ Modify the file **mail-config.properties** (under `forms-flow-bpm/src/main/resou
   * Run `docker-compose -f docker-compose-windows.yml stop` to stop.
   
 
-
-
-### Docker based full installation is completed now.
-
