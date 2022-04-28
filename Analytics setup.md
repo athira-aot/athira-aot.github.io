@@ -25,25 +25,10 @@ your use case with formsflow.ai checkout [Redash Knowledge base](https://redash.
 * Make sure you have a Docker machine up and running.
 * Make sure your current working directory is "forms-flow-ai/forms-flow-analytics".
 * Rename the file [sample.env](./sample.env) to **.env**.
-* Modify the environment variables inside [.env](./sample.env) file if needed. Environment variables are given in the table below
-* **NOTE : `{your-ip-address}` given inside the [.env](./sample.env) file should be changed to your host system IP address. Please take special care to identify the correct IP address if your system has multiple network cards**
+* Modify the environment variables inside [.env](./sample.env) file if needed. Environment variables are given  below
 
-> :information_source: Variables with trailing :triangular_flag_on_post: in below table should be updated in the `.env` file
 
-Variable name | Meaning | Possible values | Default value |
---- | --- | --- | ---
-`REDASH_HOST`:triangular_flag_on_post:| Base address of your Redash instance (the DNS name or IP) with the protocol | | <http://{your-ip-address}:7000/redash>
-`PYTHONUNBUFFERED`|Log buffering setup|1 or 0 | 1
-`REDASH_LOG_LEVEL`|Logging level|`CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET` | ERROR
-`REDASH_REDIS_URL`|Redis URL|Used on installation to create the database.Choose your own.|`redis://redis:6379/0`
-`REDASH_DATABASE_URL`|Postgres database URL|Used on installation to create the database.Choose your own.|`postgresql://postgres@postgres/postgres`
-`POSTGRES_PASSWORD`|Postgres database Password|Used on installation to create the database.Choose your own.|`postgres`
-`REDASH_COOKIE_SECRET`|Encryption for all configuration|Used on installation to create the database.Choose your own.|`redash-selfhosted`
-`REDASH_SECRET_KEY`|Encryption for datasource configuration|Used on installation to create the database.Choose your own.|`redash-selfhosted`
-`REDASH_CORS_ACCESS_CONTROL_ALLOW_ORIGIN`| To set allow origins to access Redash | `your-domain.com` | `*`
-`REDASH_REFERRER_POLICY`| To control how much referrer information should be included with Redash API requests | Choose your own. | `no-referrer-when-downgrade`
-`REDASH_CORS_ACCESS_CONTROL_ALLOW_HEADERS` | To control allowed headers to access Reash | Choose on your own | `Content-Type, Authorization`
-  
+![image](https://user-images.githubusercontent.com/86649870/165745594-0248f682-d881-4847-8c5c-79bfdb466cc9.png)
 ### Running the application
 
 * Analytics service uses port 7000, make sure the port is available.
@@ -59,7 +44,7 @@ Variable name | Meaning | Possible values | Default value |
   * Run `docker-compose -f docker-compose-windows.yml up -d` to start.
 
 ### Health Check
-click [here]()
+click [here](https://github.com/athira-aot/athira-aot.github.io/blob/main/Health%20check.md)
 
 - The application should be up and available for use at port defaulted to 7000 in  <http://localhost:7000/> and register with any valid credentials.
     
