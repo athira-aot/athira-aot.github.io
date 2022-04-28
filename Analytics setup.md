@@ -8,19 +8,15 @@ your use case with formsflow.ai checkout [Redash Knowledge base](https://redash.
 
 ## Table of Content
 
-1. [Prerequisites](#prerequisites)
-2. [Solution Setup](#solution-setup)
+
+1. [Solution Setup](#solution-setup)
    * [Step 1 : Installation](#installation)
    * [Step 2 : Running the application](#running-the-application)
    * [Step 3 : Health Check](#health-check)
    * [Step 4 : Configuration of Keycloak SAML Setup](#configuration-of-keycloak-saml-setup)
-3. [Get the Redash API key](#get-the-redash-api-key)
+3. [Get the Redash API key](## Get the Redash API Key)
 4. [Redash how to use guide](#redash-how-to-use-guide)
 
-## Prerequisites
-
-* For docker based installation [Docker](https://docker.com) need to be installed.
-* Admin access to [Keycloak](../forms-flow-idm/keycloak) server.
 
 ## Solution Setup
 
@@ -63,13 +59,7 @@ Variable name | Meaning | Possible values | Default value |
   * Run `docker-compose -f docker-compose-windows.yml up -d` to start.
 
 ### Health Check
-
-- Check the public endpoint : `{your-ip-address}:7000/ping`
-
-```
-RESPONSE
-PONG.
-```
+click [here]()
 
 - The application should be up and available for use at port defaulted to 7000 in  <http://localhost:7000/> and register with any valid credentials.
     
@@ -89,10 +79,7 @@ PONG.
 
 ## Get the Redash API Key
 
-* Login to redash hosted instance  (i.e. <http://localhost:7000/>) using the admin credentials passed for registration / SAML credentials
-* Go to User Icon -> Profile -> Settings
-  * Go to Account Section
-  * Copy API Key to Clipboard
+[here](https://github.com/athira-aot/athira-aot.github.io/blob/main/Get%20Redash%20API%20key.md)
 
 ## Redash how to use guide
 
