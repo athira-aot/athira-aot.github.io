@@ -35,7 +35,7 @@ Follow the instructions given [here](https://github.com/athira-aot/athira-aot.gi
 #### forms-flow-analytics Setup
 ------------------------------
 
-Start the **analytics server** by following the instructions given [here](../../forms-flow-analytics/README.md)
+Start the **analytics server** by following the instructions given [here](https://github.com/athira-aot/athira-aot.github.io/blob/main/Analytics%20setup.md)
    
 #### forms-flow-forms Setup       
 ---------------------------
