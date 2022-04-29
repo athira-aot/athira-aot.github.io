@@ -62,4 +62,4 @@ Install the components in the listed order. *(NOTE: Keycloak, form.io and redash
 ------------------
 #### Openshift Full Deployment
 
- Follow the instructions on [openshift installation guide](./openshift)
+ Follow the instructions on [openshift installation guide](https://github.com/athira-aot/athira-aot.github.io/blob/main/openshift%20installation%20.md)
