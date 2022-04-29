@@ -5,12 +5,11 @@ In the following document, we’ll describe about the different project dependen
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
-2. [Project Dependencies](#project-dependencies)
-3. [Download the formsflow.ai](#download-the-formsflowai)
-4. [Installation](#installation)
+2. [Download the formsflow.ai](#download-the-formsflowai)
+3. [Installation](#installation)
    * [Docker](#docker-based-installation)
    * [Openshift](#openshift-based-installation)
-5. [Verifying the Installation Status](#verifying-the-installation-status)
+4. [Verifying the Installation Status](#verifying-the-installation-status)
 
 
 ## Prerequisites
@@ -19,14 +18,7 @@ In the following document, we’ll describe about the different project dependen
 * For docker based installation [Docker](https://docker.com) needs to be installed.
   * For **Mac**, make sure the [docker for mac](https://docs.docker.com/docker-for-mac/#resources) memory allocation is set to at least **16GB**. 
 
-## Project Dependencies
 
-- [Keycloak](https://www.keycloak.org/) (included under ../.forms-flow-idm/keycloak)
-- [form.io](https://www.form.io/opensource) (included under ../.forms-flow-forms)
-- [Camunda](https://camunda.com/) (included under ../.forms-flow-bpm)
-- [Redash](https://redash.io) (included under ../.forms-flow-analytics)
-- [Python](https://www.python.org/) (included under ../.forms-flow-api)
-- *Optional*: [Nginx](https://www.nginx.com) (included under ./deployment/nginx) 
 
 ## Download the formsflow.ai
 
